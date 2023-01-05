@@ -12,6 +12,7 @@ Saya menerapkan tahapan tahapan dalam Natural Language Processing, yaitu
 
 Sedangkan untuk mengambil tweet tweet Pak RK, saya menggunakan `tweepy`
 
-Hasil akhir akan memberikan output seperti berikut \n
+Hasil akhir akan memberikan output seperti berikut
+
 `Tweet Pak Ridwan Kamil memiliki sentimen negatif 4%
 Tweet Pak Ridwan Kamil memiliki sentimen positif 7%`
