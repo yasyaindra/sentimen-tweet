@@ -55,5 +55,4 @@ def please_percentage(count, neg, pos):
     
 percentage = please_percentage(len(tokenized_tweets), counted_words['negative'], counted_words['positive'])
 
-print(f"Tweet Pak Ridwan Kamil memiliki sentimen negatif {percentage['negative']}")
-print(f"Tweet Pak Ridwan Kamil memiliki sentimen positif {percentage['positive']}")
+print("Tweet Pak Ridwan memiliki sentimen buruk" if percentage['negative'] > percentage['positive'] else "Tweet Pak Ridwan memiliki sentimen baik")
